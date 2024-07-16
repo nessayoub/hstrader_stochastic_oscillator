@@ -1,5 +1,5 @@
 # HsTrader-Stochastic-Oscillator
-<!--![Alt text](url_or_relative_path_to_image)-->
+![Stochastic-Oscillator](Visualization.png)
 ## Stochastic Oscillator
 
 The Stochastic Oscillator is a momentum indicator that shows the location of the closing price relative to the high-low range over a set number of periods. It is primarily used to identify overbought and oversold conditions.
