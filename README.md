@@ -1,7 +1,6 @@
 # HsTrader-Stochastic-Oscillator
-![Stochastic-Oscillator](Visualization.png)
 
-
+![Stochastic-Oscillator](image/Visualization.png)
 
 ## HsTrader Library
 
@@ -35,7 +34,7 @@ The Stochastic Oscillator consists of two lines:
 
 The formulas for these lines are:
 
-- **%K = [(Current Close - Lowest Low) / (Highest High - Lowest Low)] * 100**
+- **%K = [(Current Close - Lowest Low) / (Highest High - Lowest Low)] \* 100**
 
   - **Current Close:** The most recent closing price.
   - **Lowest Low:** The lowest price over the last `n` periods.
@@ -51,10 +50,12 @@ The formulas for these lines are:
 ### Steps in the Algorithm
 
 1. **Data Preparation:**
+
    - Fetch historical market data for the ticker.
    - Convert the data into a pandas DataFrame and adjust the time column to retain only the date.
 
 2. **Stochastic Oscillator Calculation:**
+
    - Iterate over the data to calculate the %K and %D lines.
    - Identify the highest high and lowest low for the specified period (default is 14 days).
    - Compute the %K values using the formula.
