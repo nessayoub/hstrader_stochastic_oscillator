@@ -1,6 +1,6 @@
 # HsTrader-Stochastic-Oscillator
 
-![Stochastic-Oscillator](image/Visualization.png)
+![Stochastic-Oscillator](img/Visualization.png)
 
 ## HsTrader Library
 
