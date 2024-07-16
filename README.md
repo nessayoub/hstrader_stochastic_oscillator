@@ -1,5 +1,27 @@
 # HsTrader-Stochastic-Oscillator
 ![Stochastic-Oscillator](Visualization.png)
+
+
+
+## HsTrader Library
+
+`HsTrader` is a Python library designed to interact with financial markets. It provides various functionalities such as fetching market data, placing orders, and managing trading accounts. This library supports multiple financial instruments including forex, stocks, and cryptocurrencies.
+
+### Key Features
+
+- **Market Data Retrieval:** Fetch historical and real-time market data for various financial instruments.
+- **Order Management:** Place, modify, and cancel trades programmatically.
+- **Account Management:** Retrieve account information, balance, and transaction history.
+- **Event Handling:** Subscribe to market events and execute custom strategies based on real-time data.
+
+### Installation
+
+To install the `hstrader` library, use the following pip command:
+
+```sh
+pip install hstrader
+```
+
 ## Stochastic Oscillator
 
 The Stochastic Oscillator is a momentum indicator that shows the location of the closing price relative to the high-low range over a set number of periods. It is primarily used to identify overbought and oversold conditions.
